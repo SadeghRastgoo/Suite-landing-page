@@ -7,10 +7,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-
-  transition-duration: 0.3s;
-  transition-property: background, color;
-  transition-timing-function: ease-in-out;
+  padding-top: 3px;
 }
 
 .btn--primary {
@@ -35,6 +32,10 @@
   border: 1px solid var(--dark-violet);
   width: 21.9rem;
   height: 5.6rem;
+
+  transition-duration: 0.25s;
+  transition-property: background, color;
+  transition-timing-function: ease-in-out;
 
   &:hover {
     background: var(--dark-violet);
